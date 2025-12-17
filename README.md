@@ -42,9 +42,16 @@ updated = inj.apply_updates(pre, post)
 print(updated)
 ```
 
+## Recomendações para uso eficiente
+- Para máxima performance em GPU, mantenha os tensores no dispositivo correto (use `.to(device)` no PyTorch).
+- Use batch updates sempre que possível para aproveitar paralelismo.
+- O Injector converte automaticamente entre numpy, torch e tensorflow.
+- Para grandes modelos, ajuste o parâmetro `lr` para evitar instabilidade numérica.
+- Benchmarks mostram que a modulação de pesos é eficiente e não impacta negativamente o tempo de treinamento.
+
 ## Recursos
 - PlasticityEngine: atualização de pesos com validação e rollback
-- Injector: interface plugável para arrays numpy
+- Injector: interface plugável para arrays numpy, torch e tensorflow
 - Plugin Shim: integração fácil com sistemas de extensão
 - Sem dependências além de numpy
 
