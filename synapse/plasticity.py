@@ -1,6 +1,6 @@
 """
 Synapse Dynamics: Human-inspired neuroplasticity engine for neural networks.
-Compatível com NumPy, PyTorch e TensorFlow. Seguro, eficiente e extensível.
+Compatible with NumPy, PyTorch, and TensorFlow. Safe, efficient, and extensible.
 """
 import numpy as np
 
