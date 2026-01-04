@@ -5,7 +5,7 @@ Synapse Dynamics is a weight modulation system inspired by human neuroplasticity
 ## Objetivo
 Allow neural models to learn and adapt dynamically, with safe plastic rules (Hebbian, Oja) and automatic rollback for maximum robustness. Focus on reducing training time and facilitating experimentation.
 
-## Instalação Fácil
+## Easy Installation
 Requirements: Python 3.8+
 
 1. Install directly via pip (in the project directory):
